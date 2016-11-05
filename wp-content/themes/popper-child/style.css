@@ -1,0 +1,15 @@
+/*
+Theme Name: Popper Child Theme
+Theme URI: http://lynda.com/mor10
+Description: A child theme of Morten's awesome Popper theme.
+Author: Tania Allen
+Author URI: http://momcoder.com
+Template: popper
+Version: 0.1.0
+*/
+
+@import url("../popper/style.css");
+
+body {
+  background-color: pink;
+}
