@@ -10,6 +10,20 @@ Version: 0.1.0
 
 @import url("../popper/style.css");
 
-body {
-  background-color: pink;
+.site-title {
+  font-weight: 300;
+}
+
+.site-description {
+  font-style: italic;
+}
+
+.sticky:before {
+  content: "Sticky Post";
+  display: block;
+  text-align: right;
+  font-family: "Fira Sans", sans-serif;
+  background-color: hsl(0, 0%, 80%);
+  padding: .2em 1em;
+  font-size: 80%;
 }
